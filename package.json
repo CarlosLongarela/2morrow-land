@@ -1,0 +1,37 @@
+{
+  "name": "2morrow-land",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint:css": "stylelint \"src/assets/css/**/*.css\"",
+    "lint:js": "eslint src/assets/js/site.js scripts/*.mjs",
+    "lint:html": "html-validate \"src/**/*.html\"",
+    "lint": "npm run lint:css && npm run lint:js && npm run lint:html",
+    "check:links": "node scripts/check-links.mjs",
+    "check:lighthouse": "node scripts/check-lighthouse.mjs",
+    "test": "npm run build && npm run lint && npm run check:links && npm run check:lighthouse"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@fontsource/ibm-plex-mono": "^5.2.8",
+    "@fontsource/ibm-plex-sans": "^5.2.8",
+    "@fontsource/newsreader": "^5.2.6",
+    "chrome-launcher": "^1.2.1",
+    "esbuild": "^0.25.8",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0",
+    "html-minifier-terser": "^7.2.0",
+    "html-validate": "^10.1.2",
+    "lighthouse": "^12.6.1",
+    "lightningcss": "^1.30.1",
+    "linkinator": "^6.1.4",
+    "sharp": "^0.34.3",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0"
+  }
+}

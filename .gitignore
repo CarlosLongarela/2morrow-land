@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.lighthouseci/
+.linkinator/
+.tmp/
+npm-debug.log*

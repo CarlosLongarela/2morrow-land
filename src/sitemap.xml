@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://2morrow.land/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2morrow.land/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2morrow.land/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2morrow.land/" />
+  </url>
+  <url>
+    <loc>https://2morrow.land/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2morrow.land/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2morrow.land/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2morrow.land/" />
+  </url>
+  <url>
+    <loc>https://2morrow.land/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2morrow.land/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2morrow.land/es/privacidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2morrow.land/privacy/" />
+  </url>
+  <url>
+    <loc>https://2morrow.land/legal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2morrow.land/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2morrow.land/es/aviso-legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2morrow.land/legal/" />
+  </url>
+  <url>
+    <loc>https://2morrow.land/accessibility/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2morrow.land/accessibility/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2morrow.land/es/accesibilidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2morrow.land/accessibility/" />
+  </url>
+  <url>
+    <loc>https://2morrow.land/es/privacidad/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2morrow.land/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2morrow.land/es/privacidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2morrow.land/privacy/" />
+  </url>
+  <url>
+    <loc>https://2morrow.land/es/aviso-legal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2morrow.land/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2morrow.land/es/aviso-legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2morrow.land/legal/" />
+  </url>
+  <url>
+    <loc>https://2morrow.land/es/accesibilidad/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2morrow.land/accessibility/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2morrow.land/es/accesibilidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2morrow.land/accessibility/" />
+  </url>
+</urlset>
