@@ -148,61 +148,23 @@
             <h2 id="newsletter-title">Sigue la historia</h2>
             <p>Recibe los próximos fragmentos a medida que el archivo se complete.</p>
           </div>
-          <!-- Sustituir este bloque provisional por el HTML legado definitivo de SendFox. -->
-          <form
-            class="newsletter-form"
-            action="#newsletter"
-            method="post"
-            novalidate
-            data-newsletter-form
-            data-success-message="Revisa tu correo. Te hemos enviado un mensaje para confirmar la suscripción."
-            data-error-message="No hemos podido procesar la solicitud. Revisa los datos e inténtalo de nuevo."
-            data-email-error="Introduce una dirección de correo válida."
-            data-consent-error="Debes aceptar el aviso de privacidad para suscribirte."
-            data-placeholder-message="Formulario provisional. La entrega final con doble confirmación se conectará durante la integración de la lista de correo."
-          >
-            <div class="field-row">
-              <label class="field">
-                <span>Nombre</span>
-                <span class="field-hint">Opcional</span>
-                <input type="text" name="name" autocomplete="name">
-              </label>
-              <label class="field">
-                <span>Correo electrónico</span>
-                <input type="email" name="email" autocomplete="email" required>
-              </label>
+          <div class="newsletter-form newsletter-embed">
+            <div class="sendfox-embed" data-sendfox-embed>
+              <script
+                src="https://cdn.sendfox.com/js/embed.js"
+                data-form="m2ol96"
+                data-api="https://sendfox.com"
+                async
+              ></script>
             </div>
-            <div class="honeypot" aria-hidden="true">
-              <label>
-                Deja este campo vacío
-                <input type="text" name="company" tabindex="-1" autocomplete="off">
-              </label>
-            </div>
-            <input type="hidden" name="language" value="es">
-            <label class="checkbox-field">
-              <input type="checkbox" name="privacy" required>
-              <span>
-                Quiero recibir novedades de 2Morrow.land y he leído la
-                <a href="/es/privacidad/">política de privacidad</a>.
-              </span>
-            </label>
-            <button class="primary-button" type="submit">Sigue la historia</button>
-            <noscript>
-              <p class="supporting-note">
-                La entrega de la lista de correo todavía se está conectando. Si quieres seguir la
-                historia antes de que el formulario final esté activo, escribe a
-                <a href="mailto:info@2morrow.land?subject=Sigue%20la%20historia">info@2morrow.land</a>.
-              </p>
-            </noscript>
             <p class="supporting-note">
               Sin ruido. Solo novedades relevantes. Puedes darte de baja en cualquier momento.
             </p>
-            <p class="supporting-note is-subtle">
-              Formulario provisional. La entrega final con doble confirmación se conectará durante
-              la integración de la lista de correo.
+            <p class="supporting-note">
+              Si quieres suscribirte a nuestra lista de correo, escríbenos a
+              <a href="mailto:info@2morrow.land">info@2morrow.land</a>.
             </p>
-            <p class="status-message" aria-live="polite" data-form-status></p>
-          </form>
+          </div>
         </section>
 
         <section class="closing-notes reveal" aria-labelledby="contribute-title">
