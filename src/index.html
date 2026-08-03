@@ -148,45 +148,15 @@
             <h2 id="newsletter-title">Follow the story</h2>
             <p>Receive the next fragments as the archive unfolds.</p>
           </div>
-          <!-- Replace this placeholder block with the final SendFox legacy form HTML when available. -->
-          <form
-            class="newsletter-form"
-            action="#newsletter"
-            method="post"
-            novalidate
-            data-newsletter-form
-            data-success-message="Check your inbox. We have sent you an email to confirm your subscription."
-            data-error-message="We could not process your request. Please check the information and try again."
-            data-email-error="Enter a valid email address."
-            data-consent-error="You must accept the privacy notice to subscribe."
-            data-placeholder-message="Preview form only. Final double opt-in delivery will be connected during newsletter integration."
-          >
-            <div class="field-row">
-              <label class="field">
-                <span>Name</span>
-                <span class="field-hint">Optional</span>
-                <input type="text" name="name" autocomplete="name">
-              </label>
-              <label class="field">
-                <span>Email address</span>
-                <input type="email" name="email" autocomplete="email" required>
-              </label>
+          <div class="newsletter-form newsletter-embed">
+            <div class="sendfox-embed" data-sendfox-embed>
+              <script
+                src="https://cdn.sendfox.com/js/embed.js"
+                data-form="3zkz7j"
+                data-api="https://sendfox.com"
+                async
+              ></script>
             </div>
-            <div class="honeypot" aria-hidden="true">
-              <label>
-                Leave this field empty
-                <input type="text" name="company" tabindex="-1" autocomplete="off">
-              </label>
-            </div>
-            <input type="hidden" name="language" value="en">
-            <label class="checkbox-field">
-              <input type="checkbox" name="privacy" required>
-              <span>
-                I want to receive updates from 2Morrow.land and I have read the
-                <a href="/privacy/">privacy policy</a>.
-              </span>
-            </label>
-            <button class="primary-button" type="submit">Follow the story</button>
             <noscript>
               <p class="supporting-note">
                 Newsletter delivery is still being connected. If you want to follow the story
@@ -197,12 +167,7 @@
             <p class="supporting-note">
               No noise. Only meaningful updates. You can unsubscribe at any time.
             </p>
-            <p class="supporting-note is-subtle">
-              Preview form only. Final double opt-in delivery will be connected during newsletter
-              integration.
-            </p>
-            <p class="status-message" aria-live="polite" data-form-status></p>
-          </form>
+          </div>
         </section>
 
         <section class="closing-notes reveal" aria-labelledby="contribute-title">
